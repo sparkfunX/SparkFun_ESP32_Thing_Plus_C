@@ -15819,12 +15819,10 @@ R_PROG=2k : I_CHG=500mA</text>
 If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <text x="381" y="187.96" size="2.54" layer="94" font="vector" align="center">Qwiic Connector</text>
 <wire x1="264.16" y1="73.66" x2="264.16" y2="124.46" width="0.1524" layer="97" style="longdash"/>
-<text x="354.076" y="11.43" size="2.54" layer="94">Mike Hord</text>
 <text x="299.72" y="116.84" size="2.54" layer="94" font="vector" align="center">Status LED</text>
 <wire x1="264.16" y1="124.46" x2="264.16" y2="193.04" width="0.1524" layer="97" style="longdash"/>
 <wire x1="264.16" y1="73.66" x2="264.16" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <text x="299.72" y="68.58" size="2.54" layer="94" align="center">GPIO0/Boot Button</text>
-<text x="331.47" y="6.604" size="2.54" layer="94">Revised by: Alex Wende</text>
 <text x="20.32" y="208.28" size="1.778" layer="97">V_USB - 6V MAX
 V_BATT - Single Cell (4.2V MAX)</text>
 <wire x1="17.78" y1="147.32" x2="27.94" y2="147.32" width="0.2032" layer="97"/>
@@ -15868,9 +15866,9 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <text x="48.26" y="154.94" size="1.778" layer="97" align="center">Boot Mode Configuration</text>
 <text x="226.06" y="139.7" size="1.27" layer="97" align="center">IO0: Avoid device connections. Can be used a stat LED.</text>
 <text x="223.52" y="114.3" size="1.27" layer="97" align="center">ADC2 has problems when WiFi is enabled.</text>
-<text x="226.06" y="132.08" size="1.27" layer="97" align="center">IO12: Avoid use as input high. Can cause bootloader fail.</text>
+<text x="226.06" y="132.08" size="1.27" layer="97" align="center">IO12: Avoid external pullups - will cause bootloader fail.</text>
 <text x="226.06" y="142.24" size="1.27" layer="97" align="center">Use boot control pins with caution: 0, 2, 5, 12, 15</text>
-<text x="226.06" y="137.16" size="1.27" layer="97" align="center">IO2: Avoid connections that pullup. Can cause bootloader fail.</text>
+<text x="226.06" y="137.16" size="1.27" layer="97" align="center">IO2: Avoid external pullups - will cause bootloader fail.</text>
 <wire x1="330.2" y1="149.86" x2="431.8" y2="149.86" width="0.2032" layer="97" style="longdash"/>
 <text x="388.62" y="256.54" size="2.54" layer="94" font="vector" align="center">Fuel Gauge</text>
 <wire x1="345.44" y1="279.4" x2="345.44" y2="193.04" width="0.2032" layer="97" style="longdash"/>
@@ -15878,6 +15876,10 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <text x="370.84" y="152.4" size="1.778" layer="97" font="vector" align="center">600mA out</text>
 <text x="299.72" y="177.8" size="2.54" layer="94" font="vector" align="center">RGB Status LED</text>
 <text x="236.22" y="48.26" size="2.54" layer="94" font="vector" align="center">microSD Connector</text>
+<text x="449.58" y="132.08" size="1.27" layer="91">Add silk to allow for U.FL or trace antenna</text>
+<text x="226.06" y="129.54" size="1.27" layer="97" align="center">IO15: Has builtin pullup at POR.</text>
+<text x="226.06" y="134.62" size="1.27" layer="97" align="center">IO5: Has builtin pullup at POR.</text>
+<text x="449.58" y="129.54" size="1.778" layer="91">Rotate microSD</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
