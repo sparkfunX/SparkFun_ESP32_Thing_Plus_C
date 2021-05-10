@@ -15876,10 +15876,8 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <text x="370.84" y="152.4" size="1.778" layer="97" font="vector" align="center">600mA out</text>
 <text x="299.72" y="177.8" size="2.54" layer="94" font="vector" align="center">RGB Status LED</text>
 <text x="236.22" y="48.26" size="2.54" layer="94" font="vector" align="center">microSD Connector</text>
-<text x="449.58" y="132.08" size="1.27" layer="91">Add silk to allow for U.FL or trace antenna</text>
 <text x="226.06" y="129.54" size="1.27" layer="97" align="center">IO15: Has builtin pullup at POR.</text>
 <text x="226.06" y="134.62" size="1.27" layer="97" align="center">IO5: Has builtin pullup at POR.</text>
-<text x="449.58" y="129.54" size="1.778" layer="91">Rotate microSD</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
