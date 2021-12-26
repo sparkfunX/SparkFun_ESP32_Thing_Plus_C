@@ -1,4 +1,4 @@
-#include <FastLED.h>
+#include <FastLED.h> // http://librarymanager/All#FastLED
 
 #define LED_PIN     2 //Pin 2 on Thing Plus C is connected to WS2812 LED
 #define COLOR_ORDER GRB
